@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+
+/* Nav Bar Start Here */
+
+.nav-bar {
+    background: #999999;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times;
+}
+
+.menu-right {
+    text-align: right;
+}
+
+.menu-right ul li {
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-right a:hover {
+    color: red;
+}
+
+.menu-right span {
+    margin: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+    .menu-right span {
+        display: block;
+    }
+    .menu-right ul li {
+        display: block;
+        text-align: center;
+    }
+    .menu-right ul {
+        display: none;
+    }
+}
+
+
+/* Nav Bar End Here */

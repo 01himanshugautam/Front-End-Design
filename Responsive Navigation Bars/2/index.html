@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar- Himanshu Gautam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div></div>
+        <div class="menu-right">
+            <span onclick="myfunction()">&#9776</span>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us
+                </a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div></div>
+    </nav>
+    <script>
+        function myfunction() {
+            var x = document.getElementById("menu");
+            if (x.style.display == "block") {
+                x.style.display = "none"
+            } else {
+                x.style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>
